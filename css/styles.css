@@ -1,0 +1,24 @@
+.bgimage {
+	background-image: url("../images/cover-photo.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 200px;
+}
+.icon {
+	max-width: 150px;
+	margin: 0 auto;
+	display: block;
+}
+
+.bags {
+	text-align: center;
+}
+
+@media(min-width: 1200px) {
+	h2 {
+		margin-top: 0;
+	}
+	.bags {
+		text-align: left;
+	}
+}
