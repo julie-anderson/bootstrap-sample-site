@@ -10,6 +10,10 @@ header h1{
 	color: white;
 }
 
+.jumbotron {
+	margin-top: 50px;
+}
+
 .bags {
 	text-align: center;
 }
