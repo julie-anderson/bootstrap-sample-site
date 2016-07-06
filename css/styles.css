@@ -9,6 +9,9 @@
 .content {
 	margin-top: 50px;
 }
+.item>img {
+	width: 100%;
+}
 
 header h1{
 	color: white;
