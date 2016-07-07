@@ -43,7 +43,7 @@
   <div class="content container">
     <div class="row">
       <div class="col-sm-12">
-        <h1>Connect</h1>
+        <h1>Connect (tab panel)</h1>
 
         <ul class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active">
@@ -68,6 +68,61 @@
           <div role="tabpanel" class="tab-pane" id="inPerson">
              <h3>In Person</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat eu tortor et vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Connect (collapsible & accordian)</h1>
+            
+            <div class="panel-group" id="accordian" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a href="#socMed" role="button" data-toggle="collapse" 
+                      data-parent="#accordian" aria-expanded="false" aria-controls="socMed">Social Media</a>
+                  </h4>
+                </div>
+                <div class="panel-collapse collapse in" id="socMed" role="tabpanel" arialabelledby="headingOne">
+                  <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat eu tortor et vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                  </div>
+                </div> 
+              </div>
+              
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a href="#rav" role="button" data-toggle="collapse" 
+                      data-parent="#accordian" aria-expanded="false" aria-controls="rav">Ravelry</a>
+                  </h4>
+                </div>
+                <div class="panel-collapse collapse" id="rav" role="tabpanel" arialabelledby="headingTwo">
+                  <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat eu tortor et vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                  </div>
+                </div> 
+              </div>
+              
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a href="#person" role="button" data-toggle="collapse" 
+                      data-parent="#accordian" aria-expanded="false" aria-controls="socMed">In Person</a>
+                  </h4>
+                </div>
+                <div class="panel-collapse collapse" id="person" role="tabpanel" arialabelledby="headingThree">
+                  <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat eu tortor et vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            
+             
           </div>
         </div>
 
